@@ -143,4 +143,8 @@ switch(bluebg2){
   document.getElementById("howto1").style.display = "none";
   document.getElementById("howto2").style.display = "none";
   document.getElementById("letsgo").style.display = "none";
+
+  document.getElementById("cat").style.top = "550px"
+  document.getElementById("cat").style.left = "20px"
+  document.getElementById("one").style.display = "block";
  }

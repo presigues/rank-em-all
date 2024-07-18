@@ -121,3 +121,34 @@
     background-color: rgb(1, 29, 59);
     height: 800px;
 }
+
+#cat{
+    position: fixed;
+
+    left: 50px;
+    top: 300px;
+}
+
+#b1{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+#b2{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}
+
+
+#one{
+    position: fixed;
+    top: 25px;
+    left: 25px;
+    width: 850px;
+    height: 450px;
+    background-color: rgb(0, 47, 97);
+    display: none;
+
+}
