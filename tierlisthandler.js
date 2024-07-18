@@ -99,4 +99,48 @@ switch(bluebg1){
                 break;
 
 }
+
+switch(bluebg2){
+
+  case 1:
+    document.getElementById("b2").setAttribute("src", "https://www.youtube.com/embed/QyPR77rg1to?list=PLpJl5XaLHtLX-pDk4kctGxtF4nq6BIyjg");
+    // ruins - UOST
+    break;
+    case 2:
+      document.getElementById("b2").setAttribute("src", "https://www.youtube.com/embed/4w3VqzwJ1j4?list=PL8C3D47E6FA9CDDC4");
+      // main menu - PvZost--
+    break;
+    case 3:
+      document.getElementById("b2").setAttribute("src", "https://www.youtube.com/embed/uQHf9T_9Uno?list=PL72BLeZJTSROUYz97aZdVdl9590M7qZD");
+      // main screen - wii sports ost
+      break;
+      case 4:
+        document.getElementById("b2").setAttribute("src", "https://www.youtube.com/embed/8gkTtNefxws?list=PLEUKcNuP7bDX9RoW3HqYR6EFvWZh12upZ");
+        // the world is revolving - DOST
+        break;
+        case 5:
+          document.getElementById("b2").setAttribute("src", "https://www.youtube.com/embed/IJjYlFAFnoA?list=PLoqOgJJaN57YiiY-JrdSvBVCprMPednXl");
+          //overture - SMGOST
+          break;
+          case 6:
+            document.getElementById("b2").setAttribute("src", "https://www.youtube.com/embed/hMa4hZQbrms?list=PLpJl5XaLHtLX-pDk4kctGxtF4nq6BIyjg");
+            // asgore - UOST
+            break;
+            case 7:
+              document.getElementById("b2").setAttribute("src", "https://www.youtube.com/embed/qq-RGFyaq0U?list=PLefKpFQ8Pvy5aCLAGHD8Zmzsdljos-t2l");
+              // minecraft - MVA
+              break;
+              case 8:
+                document.getElementById("b2").setAttribute("src",  "https://www.youtube.com/embed/-8p8VowCmgE?list=PLEUKcNuP7bDX9RoW3HqYR6EFvWZh12upZ");
+                // big shot - DOST
+                break;
+
+}
+ }
+
+ function switcheroo(){
+  document.getElementById("howtotitle").style.display = "none";
+  document.getElementById("howto1").style.display = "none";
+  document.getElementById("howto2").style.display = "none";
+  document.getElementById("letsgo").style.display = "none";
  }
