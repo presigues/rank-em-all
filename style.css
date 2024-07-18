@@ -109,7 +109,7 @@
     height: 100px;
     width: 500px;
     position: fixed;
-    top: 780px;
+    top: 800px;
     left: 550px;
     border-radius: 15px;
     border: 2px solid rgb(0, 47, 97);
@@ -119,5 +119,5 @@
 #letsgo:hover{
     border: 2px solid rgb(1, 29, 59);
     background-color: rgb(1, 29, 59);
-    height: 105px;
+    height: 800px;
 }

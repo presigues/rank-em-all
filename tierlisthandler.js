@@ -63,17 +63,6 @@ bluebg8 = getRandomInt(1, 8);
 
 console.log(bluebg8);
 
-b1sound;
-b2sound;
-b3sound;
-b4sound;
-b5sound;
-b6sound;
-b7sound;
-b8sound;
-
-
-
 switch(bluebg1){
 
   case 1:
