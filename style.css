@@ -1,0 +1,44 @@
+@font-face { font-family: pixel; src: url("Gameplay.ttf"); }
+
+#body{
+    background-color: rgb(0, 82, 146);
+}
+
+#title{
+    font-family: pixel;
+    font-size: 60px;
+    color: white;
+    position: fixed;
+    top: 200px;
+    left: 700px;
+}
+#cred{
+    font-family: pixel;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    top: 330px;
+    left: 810px;
+}
+
+#titleback{
+    background-color: rgb(0, 47, 97);
+    width: 900px;
+    height: 200px;
+    border-radius: 15px;
+   position: fixed;
+   left: 500px;
+   top: 200px;
+
+}
+
+#start{
+    background-color: rgb(0, 82, 146);
+    font-size: 60px;
+    color: white;
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 500px;
+    left: 700px;
+}
