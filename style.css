@@ -119,7 +119,7 @@
 #letsgo:hover{
     border: 2px solid rgb(1, 29, 59);
     background-color: rgb(1, 29, 59);
-    height: 800px;
+    height: 105px;
 }
 
 #cat{
@@ -131,24 +131,53 @@
 
 #b1{
     position: fixed;
-    top: 50px;
+    top: 250px;
     left: 50px;
 }
 
 #b2{
     position: fixed;
-    top: 50px;
+    top: 250px;
     right: 50px;
 }
 
 
 #one{
     position: fixed;
-    top: 25px;
+    top: 225px;
     left: 25px;
     width: 850px;
-    height: 450px;
+    height: 550px;
     background-color: rgb(0, 47, 97);
     display: none;
 
+}
+#two{
+    position: fixed;
+    top: 225px;
+    right: 25px;
+    width: 850px;
+    height: 550px;
+    background-color: rgb(0, 47, 97);
+    display: none;
+
+}
+
+#text1{
+    font-family: pixel;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 650px;
+    left: 50px;
+}
+
+#text2{
+    font-family: pixel;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 650px;
+    left: 1025px;
+    margin-right: 50px;
 }
