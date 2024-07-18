@@ -73,3 +73,51 @@
     background-color: rgb(1, 29, 59);
     height: 165px;
 }
+
+#howtotitle{
+    font-family: pixel;
+    font-size: 60px;
+    color: white;
+    position: fixed;
+    top: 100px;
+    left: 550px;
+}
+
+#howto1{
+    font-family: pixel;
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    top: 300px;
+    left: 550px;
+}
+
+#howto2{
+    font-family: pixel;
+    font-size: 40px;
+    color: white;
+    position: fixed;
+    top: 500px;
+    left: 550px;
+}
+
+#letsgo{
+    background-color: rgb(0, 47, 97);
+    font-size: 40px;
+    font-family: pixel;
+    color: white;
+    height: 100px;
+    width: 500px;
+    position: fixed;
+    top: 780px;
+    left: 550px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 47, 97);
+    transition-duration: 0.4s;
+}
+
+#letsgo:hover{
+    border: 2px solid rgb(1, 29, 59);
+    background-color: rgb(1, 29, 59);
+    height: 105px;
+}

@@ -4,6 +4,10 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
+  function thescrambler(){
+
+
+
 bluebg1 = getRandomInt(1, 8)
 
 
@@ -55,11 +59,12 @@ switch(bluebg1){
 
   case 1:
     b1sound = "https://www.youtube.com/embed/QyPR77rg1to?list=PLpJl5XaLHtLX-pDk4kctGxtF4nq6BIyjg";
+    document.getElementById("b1").setAttribute("src", b1sound)
     // ruins - UOST
     break;
     case 2:
       b1sound = "https://www.youtube.com/embed/4w3VqzwJ1j4?list=PL8C3D47E6FA9CDDC4";
-      // main menu - PvZost
+      // main menu - PvZost--
     break;
     case 3:
       b1sound = "https://www.youtube.com/embed/uQHf9T_9Uno?list=PL72BLeZJTSROUYz97aZdVdl9590M7qZD-";
@@ -87,3 +92,4 @@ switch(bluebg1){
                 break;
 
 }
+  }
