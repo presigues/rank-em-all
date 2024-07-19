@@ -282,3 +282,45 @@
     height: 55px;
 }
 
+#choice3{
+    background-color: rgb(0, 47, 97);
+    font-size: 20px;
+    font-family: pixel;
+    color: white;
+    height: 50px;
+    width: 800px;
+    position: fixed;
+    top: 800px;
+    left: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 47, 97);
+    transition-duration: 0.4s;  
+}
+
+#choice3:hover{
+    border: 2px solid rgb(1, 29, 59);
+    background-color: rgb(1, 29, 59);
+    height: 55px;
+}
+
+#choice4{
+    background-color: rgb(0, 47, 97);
+    font-size: 20px;
+    font-family: pixel;
+    color: white;
+    height: 50px;
+    width: 800px;
+    position: fixed;
+    top: 800px;
+    right: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 47, 97);
+    transition-duration: 0.4s;  
+}
+
+#choice4:hover{
+    border: 2px solid rgb(1, 29, 59);
+    background-color: rgb(1, 29, 59);
+    height: 55px;
+}
+
