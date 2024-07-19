@@ -821,8 +821,6 @@ switch(bluebg6){ // SONG 4 -----------------------------------------------------
   }
  }
 
-
-
  function switcheroo(){
   document.getElementById("howtotitle").style.display = "none";
   document.getElementById("howto1").style.display = "none";
@@ -836,10 +834,6 @@ switch(bluebg6){ // SONG 4 -----------------------------------------------------
   document.getElementById("two").style.display = "block";
   document.getElementById("match").style.display = "block";
  }
-
-
-
- 
 
  function onechosen(){
 semi1 = sound1;
@@ -855,7 +849,7 @@ document.getElementById("match").innerHTML = "Round 2 - Quals";
  }
 
  function twochosen(){
-
+  semi1 = sound2;
   console.log(document.getElementById("text2").innerHTML);
   document.getElementById("three").style.display = "block";
 document.getElementById("four").style.display = "block";
@@ -919,8 +913,20 @@ document.getElementById("six").style.display = "none";
 document.getElementById("match").innerHTML = "Round 4 - Quals";
  }
 
- function sevenchosen(){
+ function sevenchosen(semi1, semi2){
   semi4 = sound7;
+  console.log(document.getElementById("text7").innerHTML);
+  document.getElementById("seven").style.display = "none";
+document.getElementById("eight").style.display = "none";
+document.getElementById("semione").style.display = "block";
+document.getElementById("semitwo").style.display = "block";
+document.getElementById("b9").setAttribute("src", semi1);
+document.getElementById("b10").setAttribute("src", semi2);
+document.getElementById("match").innerHTML = "Round 5 - Semis";
+ }
+
+ function eightchosen(semi1, semi2){
+  semi4 = sound8;
   console.log(document.getElementById("text7").innerHTML);
   document.getElementById("seven").style.display = "none";
 document.getElementById("eight").style.display = "none";
