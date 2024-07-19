@@ -32,7 +32,7 @@
     </p>
 
    
-    <button id="letsgo" onclick="thescrambler(), switcheroo()">LETS DO THIS!</button>
+    <button id="letsgo" onclick="thescrambler(), switcheroo(), stage1choice()">LETS DO THIS!</button>
 
     <p id="match">
         Round 1 - Quals
@@ -42,12 +42,12 @@
 <div id="one">
     <iframe width="800" height="400" id="b1" title="song 1" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     <p id="text1"></p>
-    <button id="choice1" onclick="onechosen()">CHOOSE</button>
+    <button id="choice1" onclick="onechosen(), stage2choice()">CHOOSE</button>
 </div>
 <div id="two">
     <iframe width="800" height="400" id="b2" title="song 2" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     <p id="text2"></p>
-    <button id="choice2" onclick="twochosen()" >CHOOSE</button>
+    <button id="choice2" onclick="twochosen(), stage2choice()" >CHOOSE</button>
 </div>
 </div>
 
@@ -55,12 +55,12 @@
     <div id="three">
         <iframe width="800" height="400" id="b3" title="song 1" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <p id="text3"></p>
-        <button id="choice3">CHOOSE</button>
+        <button id="choice3" onclick="threechosen(), stage3choice()">CHOOSE</button>
     </div>
     <div id="four">
         <iframe width="800" height="400" id="b4" title="song 2" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <p id="text4"></p>
-        <button id="choice4">CHOOSE</button>
+        <button id="choice4" onclick="fourchosen(), stage3choice()">CHOOSE</button>
 </div>
 </div>
 
@@ -68,12 +68,12 @@
     <div id="five">
         <iframe width="800" height="400" id="b5" title="song 1" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <p id="text3"></p>
-        <button id="choice3">CHOOSE</button>
+        <button id="choice5" onclick="">CHOOSE</button>
     </div>
     <div id="six">
         <iframe width="800" height="400" id="b6" title="song 2" frameborder="0" referrerpolicy="strict-origin-when-cross-origin"></iframe>
         <p id="text6"></p>
-        <button id="choice6">CHOOSE</button>
+        <button id="choice6" onclick="">CHOOSE</button>
 </div>
 </div>
 

@@ -7,7 +7,6 @@ function getRandomInt(min, max) {
 function thescrambler(){
 
  
-
 bluebg1 = getRandomInt(1, 16);
 
 console.log(bluebg1);
@@ -20,7 +19,7 @@ bluebg2 = getRandomInt(1, 16);
 
 console.log(bluebg2);
 
-bluebg3 = getRandomInt(1, 8);
+bluebg3 = getRandomInt(1, 16);
 while(bluebg3 == bluebg1 || bluebg3 == bluebg2 ){
 bluebg3 = getRandomInt(1, 8);
 }
@@ -36,14 +35,14 @@ console.log(bluebg4);
 
 bluebg5 = getRandomInt(1, 16);
 while(bluebg5 == bluebg1 || bluebg5 == bluebg2 || bluebg5 == bluebg3 || bluebg5 == bluebg4){
-bluebg5 = getRandomInt(1, 8);
+bluebg5 = getRandomInt(1, 16);
 }
 
 console.log(bluebg5);
 
 bluebg6 = getRandomInt(1, 16);
 while(bluebg6 == bluebg1 || bluebg6 == bluebg2 || bluebg6 == bluebg3 || bluebg6 == bluebg4 || bluebg6 == bluebg5){
-bluebg6 = getRandomInt(1, 8);
+bluebg6 = getRandomInt(1, 16);
 }
 
 console.log(bluebg6);
@@ -62,6 +61,10 @@ bluebg8 = getRandomInt(1, 16);
 }
 
 console.log(bluebg8);
+
+}
+
+function stage1choice(){
 
 switch(bluebg1){  // SONG 1 ------------------------------------------------------------------------------------------------------------------------------
 
@@ -238,8 +241,12 @@ switch(bluebg2){ // SONG 2 -----------------------------------------------------
                               document.getElementById("b2").setAttribute("src",  "https://www.youtube.com/embed/xIQrC4CerB8?list=PLrnb8c3hFJatjyJ-wFMuFGANNoo7-LZsG");
                               document.getElementById("text2").innerHTML = "Sweden - C418 - Minecraft OST";
                               break;
-
 }
+}
+
+
+function stage2choice(){
+
 switch(bluebg3){ // SONG 4 -----------------------------------------------------------------------------------------------------------------------------
 
   case 1:
@@ -425,6 +432,10 @@ switch(bluebg4){ // SONG 4 -----------------------------------------------------
                               break;
 
 }
+}
+
+
+function stage3choice(){
 
 switch(bluebg5){ // SONG 5 -----------------------------------------------------------------------------------------------------------------------------
 
@@ -631,7 +642,7 @@ switch(bluebg6){ // SONG 4 -----------------------------------------------------
 
  semi1;
  semi2;
- semi3;
+
  
 
  function onechosen(){
@@ -664,7 +675,7 @@ document.getElementById("six").style.display = "block";
 document.getElementById("stage3").style.display = "block";
 document.getElementById("three").style.display = "none";
 document.getElementById("four").style.display = "none";
-document.getElementById("match").innerHTML = "Round 2 - Quals";
+document.getElementById("match").innerHTML = "Round 3 - Quals";
  }
 
  function fourchosen(){
@@ -675,5 +686,5 @@ document.getElementById("six").style.display = "block";
 document.getElementById("stage3").style.display = "block";
 document.getElementById("three").style.display = "none";
 document.getElementById("four").style.display = "none";
-document.getElementById("match").innerHTML = "Round 2 - Quals";
+document.getElementById("match").innerHTML = "Round 3 - Quals";
  }
