@@ -160,8 +160,9 @@ switch(bluebg2){
   document.getElementById("howto2").style.display = "none";
   document.getElementById("letsgo").style.display = "none";
 
-  document.getElementById("cat").style.top = "50px"
-  document.getElementById("cat").style.left = "10px"
+  document.getElementById("cat").style.top = "-50px"
+  document.getElementById("cat").style.left = "20px"
+ 
   document.getElementById("one").style.display = "block";
   document.getElementById("two").style.display = "block";
  }
