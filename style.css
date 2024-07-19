@@ -189,6 +189,18 @@
     right: 50px;
 }
 
+#b11{
+    position: fixed;
+    top: 250px;
+    left: 50px;
+}
+
+#b12{
+    position: fixed;
+    top: 250px;
+    right: 50px;
+}
+
 #one{
     position: fixed;
     top: 225px;
@@ -283,6 +295,27 @@
     display: none;
 }
 
+#semithree{
+    position: fixed;
+    top: 225px;
+    right: 25px;
+    width: 850px;
+    height: 550px;
+    background-color: rgb(0, 47, 97);
+    display: none;
+    
+}
+
+#semifour{
+    position: fixed;
+    top: 225px;
+    left: 25px;
+    width: 850px;
+    height: 550px;
+    background-color: rgb(0, 47, 97);
+    display: none;
+}
+
 #semitwo{
     position: fixed;
     top: 225px;
@@ -366,6 +399,48 @@
 }
 
 #text8{
+    font-family: pixel;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 650px;
+    left: 1025px;
+    margin-right: 50px;
+    display: none;
+}
+
+#text9{
+    font-family: pixel;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 650px;
+    left: 50px;
+    display: none;
+}
+
+#text10{
+    font-family: pixel;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 650px;
+    left: 1025px;
+    margin-right: 50px;
+    display: none;
+}
+
+#text11{
+    font-family: pixel;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 650px;
+    left: 50px;
+    display: none;
+}
+
+#text12{
     font-family: pixel;
     font-size: 25px;
     color: white;
@@ -585,6 +660,48 @@
 }
 
 #choice10:hover{
+    border: 2px solid rgb(1, 29, 59);
+    background-color: rgb(1, 29, 59);
+    height: 55px;
+}
+
+#choice11{
+    background-color: rgb(0, 47, 97);
+    font-size: 20px;
+    font-family: pixel;
+    color: white;
+    height: 50px;
+    width: 800px;
+    position: fixed;
+    top: 800px;
+    left: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 47, 97);
+    transition-duration: 0.4s;  
+}
+
+#choice11:hover{
+    border: 2px solid rgb(1, 29, 59);
+    background-color: rgb(1, 29, 59);
+    height: 55px;
+}
+
+#choice12{
+    background-color: rgb(0, 47, 97);
+    font-size: 20px;
+    font-family: pixel;
+    color: white;
+    height: 50px;
+    width: 800px;
+    position: fixed;
+    top: 800px;
+    right: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 47, 97);
+    transition-duration: 0.4s;  
+}
+
+#choice12::backdrop{
     border: 2px solid rgb(1, 29, 59);
     background-color: rgb(1, 29, 59);
     height: 55px;

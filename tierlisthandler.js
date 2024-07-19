@@ -936,3 +936,26 @@ document.getElementById("b9").setAttribute("src", semi1);
 document.getElementById("b10").setAttribute("src", semi2);
 document.getElementById("match").innerHTML = "Round 5 - Semis";
  }
+
+
+ function ninechosen(semi1, semi2, semi3, semi4){
+  final1 = semi1;
+  document.getElementById("b11").setAttribute("src", semi3);
+  document.getElementById("b12").setAttribute("src", semi4);
+  document.getElementById("semione").style.display = "none";
+document.getElementById("semitwo").style.display = "none";
+document.getElementById("semithree").style.display = "block";
+document.getElementById("semifour").style.display = "block";
+document.getElementById("match").innerHTML = "Round 6 - Semis";
+ }
+
+ function tenchosen(semi1, semi2, semi3, semi4){
+  final1 = semi2;
+  document.getElementById("b11").setAttribute("src", semi3);
+  document.getElementById("b12").setAttribute("src", semi4);
+  document.getElementById("semione").style.display = "none";
+document.getElementById("semitwo").style.display = "none";
+document.getElementById("semithree").style.display = "block";
+document.getElementById("semifour").style.display = "block";
+document.getElementById("match").innerHTML = "Round 6 - Semis";
+ }
