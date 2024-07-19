@@ -153,6 +153,19 @@
     right: 50px;
 }
 
+#b5{
+    position: fixed;
+    top: 250px;
+    left: 50px;
+}
+
+#b6{
+    position: fixed;
+    top: 250px;
+    right: 50px;
+}
+
+
 
 #one{
     position: fixed;
