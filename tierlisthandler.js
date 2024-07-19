@@ -327,82 +327,90 @@ switch(bluebg3){ // SONG 3 -----------------------------------------------------
 switch(bluebg4){ // SONG 4 -----------------------------------------------------------------------------------------------------------------------------
 
   case 1:
+    sound4 = "https://www.youtube.com/embed/QyPR77rg1to?list=PLpJl5XaLHtLX-pDk4kctGxtF4nq6BIyjg";
     document.getElementById("b4").setAttribute("src", "https://www.youtube.com/embed/QyPR77rg1to?list=PLpJl5XaLHtLX-pDk4kctGxtF4nq6BIyjg");
     document.getElementById("text4").innerHTML = "Ruins - Toby Fox - Undertale OST";
     // ruins - UOST
     break;
     case 2:
+      sound4 = "https://www.youtube.com/embed/4w3VqzwJ1j4?list=PL8C3D47E6FA9CDDC4";
       document.getElementById("b4").setAttribute("src", "https://www.youtube.com/embed/4w3VqzwJ1j4?list=PL8C3D47E6FA9CDDC4");
       document.getElementById("text4").innerHTML = "Main Menu -  Laura Shigihara - Plants Vs Zombies OST";
       // main menu - PvZost--
     break;
     case 3:
+      sound4 = "https://www.youtube.com/embed/uQHf9T_9Uno?list=PL72BLeZJTSROUYz97aZdVdl9590M7qZD-";
       document.getElementById("b4").setAttribute("src", "https://www.youtube.com/embed/uQHf9T_9Uno?list=PL72BLeZJTSROUYz97aZdVdl9590M7qZD-");
       document.getElementById("text4").innerHTML = "Main Screen -  Kazumi Totaka - Wii Sports OST";
       // main screen - wii sports ost
       break;
       case 4:
+        sound4 = "https://www.youtube.com/embed/8gkTtNefxws?list=PLEUKcNuP7bDX9RoW3HqYR6EFvWZh12upZ";
         document.getElementById("b4").setAttribute("src", "https://www.youtube.com/embed/8gkTtNefxws?list=PLEUKcNuP7bDX9RoW3HqYR6EFvWZh12upZ");
         document.getElementById("text4").innerHTML = "THE WORLD REVOLVING - Toby Fox - Deltarune OST";
         // the world is revolving - DOST
         break;
         case 5:
+          sound4 = "https://www.youtube.com/embed/IJjYlFAFnoA?list=PLoqOgJJaN57YiiY-JrdSvBVCprMPednXl";
           document.getElementById("b4").setAttribute("src", "https://www.youtube.com/embed/IJjYlFAFnoA?list=PLoqOgJJaN57YiiY-JrdSvBVCprMPednXl");
           document.getElementById("text4").innerHTML = "Overture - Kazumi Totaka - Super Mario Galaxy OST";
           //overture - SMGOST
           break;
           case 6:
+            sound4 = "https://www.youtube.com/embed/hMa4hZQbrms?list=PLpJl5XaLHtLX-pDk4kctGxtF4nq6BIyjg";
             document.getElementById("b4").setAttribute("src", "https://www.youtube.com/embed/hMa4hZQbrms?list=PLpJl5XaLHtLX-pDk4kctGxtF4nq6BIyjg");
             document.getElementById("text4").innerHTML = "ASGORE - Toby Fox - Undertale OST";
             // asgore - UOST
             break;
             case 7:
+              sound4 = "https://www.youtube.com/embed/qq-RGFyaq0U?list=PLefKpFQ8Pvy5aCLAGHD8Zmzsdljos-t2l";
               document.getElementById("b4").setAttribute("src", "https://www.youtube.com/embed/qq-RGFyaq0U?list=PLefKpFQ8Pvy5aCLAGHD8Zmzsdljos-t2l");
               document.getElementById("text4").innerHTML = "Minecraft - C418 - Minecraft OST";
               // minecraft - MVA
               break;
               case 8:
+                sound4 = "https://www.youtube.com/embed/-8p8VowCmgE?list=PLEUKcNuP7bDX9RoW3HqYR6EFvWZh12upZ";
                 document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/-8p8VowCmgE?list=PLEUKcNuP7bDX9RoW3HqYR6EFvWZh12upZ");
                 document.getElementById("text4").innerHTML = "BIG SHOT - Toby Fox - Deltarune OST";
                 // big shot - DOST
                 break;
                 case 9:
-                  sound2 = "https://www.youtube.com/embed/bq_jS6o3OoY?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
+                  sound4 = "https://www.youtube.com/embed/bq_jS6o3OoY?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
                   document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/bq_jS6o3OoY?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
                   document.getElementById("text4").innerHTML = "Bowsers Theme - Koji Kondo - Super Mario 64 OST ";
                   break;
                   case 10:
-                    sound2 = "https://www.youtube.com/embed/0jXTBAGv9ZQ?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
+                    sound4 = "https://www.youtube.com/embed/0jXTBAGv9ZQ?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
                     document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/0jXTBAGv9ZQ?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
                     document.getElementById("text4").innerHTML = "Halo Theme - Halo OST";
                     break;
                     case 11:
-                      sound2 = "https://www.youtube.com/embed/N6noiPFB3io?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
+                      sound4 = "https://www.youtube.com/embed/N6noiPFB3io?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
                       document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/N6noiPFB3io?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
                       document.getElementById("text4").innerHTML = "Menu 2 - C418 - Minecraft OST";
                      break;
                      case 12:
-                      sound2 = "https://www.youtube.com/embed/CMfx3MT8ge0?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
+                      sound4 = "https://www.youtube.com/embed/CMfx3MT8ge0?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
                       document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/CMfx3MT8ge0?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
                       document.getElementById("text4").innerHTML = "Dragonborn - Skyrim OST";
                       break;
                       case 13:
-                        sound2 = "https://www.youtube.com/embed/e9r5hx47kxM?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
+                        sound4 = "https://www.youtube.com/embed/e9r5hx47kxM?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
                         document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/e9r5hx47kxM?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
                         document.getElementById("text4").innerHTML = "Jump Up, Super Star! - Super Mario Odyssey OST";
                         break;
                         case 14:
-                          sound2 = "https://www.youtube.com/embed/tz82xbLvK_k?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
+                          sound4 = "https://www.youtube.com/embed/tz82xbLvK_k?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
                         document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/tz82xbLvK_k?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
                         document.getElementById("text4").innerHTML = "Hopes and Dreams - Toby Fox - Undertale OST";
                           break;
                           case 15:
-                            sound2 = "https://www.youtube.com/embed/OVZ7EaqplsI?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
+                            sound4 = "https://www.youtube.com/embed/OVZ7EaqplsI?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS"
                             document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/OVZ7EaqplsI?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
                             document.getElementById("text4").innerHTML = "eShop Theme - Nintendo Wii U System Music";
                             break;
                             case 16:
-                              sound2 = "https://www.youtube.com/embed/xIQrC4CerB8?list=PLrnb8c3hFJatjyJ-wFMuFGANNoo7-LZsG"
+                              sound4 = "https://www.youtube.com/embed/xIQrC4CerB8?list=PLrnb8c3hFJatjyJ-wFMuFGANNoo7-LZsG"
                               document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/xIQrC4CerB8?list=PLrnb8c3hFJatjyJ-wFMuFGANNoo7-LZsG");
                               document.getElementById("text4").innerHTML = "Sweden - C418 - Minecraft OST";
                               break;
@@ -423,9 +431,11 @@ switch(bluebg4){ // SONG 4 -----------------------------------------------------
  
   document.getElementById("one").style.display = "block";
   document.getElementById("two").style.display = "block";
+  document.getElementById("match").style.display = "block";
  }
 
- semmi1;
+ semi1;
+ semi2;
  
 
  function onechosen(){
@@ -436,6 +446,7 @@ document.getElementById("four").style.display = "block";
 document.getElementById("stage2").style.display = "block";
 document.getElementById("one").style.display = "none";
 document.getElementById("two").style.display = "none";
+document.getElementById("match").innerHTML = "Round 2 - Quals";
  }
 
  function twochosen(){
@@ -446,4 +457,27 @@ document.getElementById("four").style.display = "block";
 document.getElementById("stage2").style.display = "block";
 document.getElementById("one").style.display = "none";
 document.getElementById("two").style.display = "none";
+document.getElementById("match").innerHTML = "Round 2 - Quals";
+ }
+
+ function threechosen(){
+  semi2 = sound3;
+  console.log(document.getElementById("text2").innerHTML);
+  document.getElementById("five").style.display = "block";
+document.getElementById("six").style.display = "block";
+document.getElementById("stage3").style.display = "block";
+document.getElementById("three").style.display = "none";
+document.getElementById("four").style.display = "none";
+document.getElementById("match").innerHTML = "Round 2 - Quals";
+ }
+
+ function fourchosen(){
+  semi2 = sound4;
+  console.log(document.getElementById("text2").innerHTML);
+  document.getElementById("five").style.display = "block";
+document.getElementById("six").style.display = "block";
+document.getElementById("stage3").style.display = "block";
+document.getElementById("three").style.display = "none";
+document.getElementById("four").style.display = "none";
+document.getElementById("match").innerHTML = "Round 2 - Quals";
  }
