@@ -177,6 +177,18 @@
     right: 50px;
 }
 
+#b9{
+    position: fixed;
+    top: 250px;
+    left: 50px;
+}
+
+#b10{
+    position: fixed;
+    top: 250px;
+    right: 50px;
+}
+
 #one{
     position: fixed;
     top: 225px;
@@ -251,6 +263,27 @@
 }
 
 #eight{
+    position: fixed;
+    top: 225px;
+    right: 25px;
+    width: 850px;
+    height: 550px;
+    background-color: rgb(0, 47, 97);
+    display: none;
+    
+}
+
+#semione{
+    position: fixed;
+    top: 225px;
+    left: 25px;
+    width: 850px;
+    height: 550px;
+    background-color: rgb(0, 47, 97);
+    display: none;
+}
+
+#semitwo{
     position: fixed;
     top: 225px;
     right: 25px;
@@ -515,6 +548,47 @@
     height: 55px;
 }
 
+#choice9{
+    background-color: rgb(0, 47, 97);
+    font-size: 20px;
+    font-family: pixel;
+    color: white;
+    height: 50px;
+    width: 800px;
+    position: fixed;
+    top: 800px;
+    left: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 47, 97);
+    transition-duration: 0.4s;  
+}
+
+#choice9:hover{
+    border: 2px solid rgb(1, 29, 59);
+    background-color: rgb(1, 29, 59);
+    height: 55px;
+}
+
+#choice10{
+    background-color: rgb(0, 47, 97);
+    font-size: 20px;
+    font-family: pixel;
+    color: white;
+    height: 50px;
+    width: 800px;
+    position: fixed;
+    top: 800px;
+    right: 50px;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 47, 97);
+    transition-duration: 0.4s;  
+}
+
+#choice10:hover{
+    border: 2px solid rgb(1, 29, 59);
+    background-color: rgb(1, 29, 59);
+    height: 55px;
+}
 #match{
     font-family: pixel;
     font-size: 50px;
