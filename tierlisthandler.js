@@ -4,7 +4,7 @@ function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min);
   }
 
-  function thescrambler(){
+function thescrambler(){
 
  
 
@@ -332,6 +332,7 @@ switch(bluebg3){ // SONG 4 -----------------------------------------------------
                               break;
 
 }
+
 switch(bluebg4){ // SONG 4 -----------------------------------------------------------------------------------------------------------------------------
 
   case 1:
@@ -424,6 +425,7 @@ switch(bluebg4){ // SONG 4 -----------------------------------------------------
                               break;
 
 }
+
 switch(bluebg5){ // SONG 5 -----------------------------------------------------------------------------------------------------------------------------
 
   case 1:
@@ -516,6 +518,7 @@ switch(bluebg5){ // SONG 5 -----------------------------------------------------
                               break;
 
 }
+
 switch(bluebg6){ // SONG 4 -----------------------------------------------------------------------------------------------------------------------------
 
   case 1:
@@ -569,42 +572,42 @@ switch(bluebg6){ // SONG 4 -----------------------------------------------------
                 case 9:
                   sound6 = "https://www.youtube.com/embed/bq_jS6o3OoY?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
                   document.getElementById("b6").setAttribute("src",  "https://www.youtube.com/embed/bq_jS6o3OoY?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
-                  document.getElementById("text4").innerHTML = "Bowsers Theme - Koji Kondo - Super Mario 64 OST ";
+                  document.getElementById("text6").innerHTML = "Bowsers Theme - Koji Kondo - Super Mario 64 OST ";
                   break;
                   case 10:
-                    sound4 = "https://www.youtube.com/embed/0jXTBAGv9ZQ?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
-                    document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/0jXTBAGv9ZQ?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
-                    document.getElementById("text4").innerHTML = "Halo Theme - Halo OST";
+                    sound6 = "https://www.youtube.com/embed/0jXTBAGv9ZQ?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
+                    document.getElementById("b6").setAttribute("src",  "https://www.youtube.com/embed/0jXTBAGv9ZQ?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
+                    document.getElementById("text6").innerHTML = "Halo Theme - Halo OST";
                     break;
                     case 11:
-                      sound4 = "https://www.youtube.com/embed/N6noiPFB3io?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
-                      document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/N6noiPFB3io?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
-                      document.getElementById("text4").innerHTML = "Menu 2 - C418 - Minecraft OST";
+                      sound6 = "https://www.youtube.com/embed/N6noiPFB3io?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
+                      document.getElementById("b6").setAttribute("src",  "https://www.youtube.com/embed/N6noiPFB3io?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
+                      document.getElementById("text6").innerHTML = "Menu 2 - C418 - Minecraft OST";
                      break;
                      case 12:
-                      sound4 = "https://www.youtube.com/embed/CMfx3MT8ge0?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
-                      document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/CMfx3MT8ge0?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
-                      document.getElementById("text4").innerHTML = "Dragonborn - Skyrim OST";
+                      sound6 = "https://www.youtube.com/embed/CMfx3MT8ge0?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
+                      document.getElementById("b6").setAttribute("src",  "https://www.youtube.com/embed/CMfx3MT8ge0?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
+                      document.getElementById("text6").innerHTML = "Dragonborn - Skyrim OST";
                       break;
                       case 13:
-                        sound4 = "https://www.youtube.com/embed/e9r5hx47kxM?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
-                        document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/e9r5hx47kxM?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
-                        document.getElementById("text4").innerHTML = "Jump Up, Super Star! - Super Mario Odyssey OST";
+                        sound6 = "https://www.youtube.com/embed/e9r5hx47kxM?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
+                        document.getElementById("b6").setAttribute("src",  "https://www.youtube.com/embed/e9r5hx47kxM?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
+                        document.getElementById("text6").innerHTML = "Jump Up, Super Star! - Super Mario Odyssey OST";
                         break;
                         case 14:
-                          sound4 = "https://www.youtube.com/embed/tz82xbLvK_k?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
-                        document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/tz82xbLvK_k?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
-                        document.getElementById("text4").innerHTML = "Hopes and Dreams - Toby Fox - Undertale OST";
+                          sound6 = "https://www.youtube.com/embed/tz82xbLvK_k?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
+                        document.getElementById("b6").setAttribute("src",  "https://www.youtube.com/embed/tz82xbLvK_k?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
+                        document.getElementById("text6").innerHTML = "Hopes and Dreams - Toby Fox - Undertale OST";
                           break;
                           case 15:
-                            sound4 = "https://www.youtube.com/embed/OVZ7EaqplsI?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
-                            document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/OVZ7EaqplsI?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
-                            document.getElementById("text4").innerHTML = "eShop Theme - Nintendo Wii U System Music";
+                            sound6 = "https://www.youtube.com/embed/OVZ7EaqplsI?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS";
+                            document.getElementById("b6").setAttribute("src",  "https://www.youtube.com/embed/OVZ7EaqplsI?list=PL81MnlnJD9qoyZwTwZw5zy0NfHxNHEsbS");
+                            document.getElementById("text6").innerHTML = "eShop Theme - Nintendo Wii U System Music";
                             break;
                             case 16:
-                              sound4 = "https://www.youtube.com/embed/xIQrC4CerB8?list=PLrnb8c3hFJatjyJ-wFMuFGANNoo7-LZsG";
-                              document.getElementById("b4").setAttribute("src",  "https://www.youtube.com/embed/xIQrC4CerB8?list=PLrnb8c3hFJatjyJ-wFMuFGANNoo7-LZsG");
-                              document.getElementById("text4").innerHTML = "Sweden - C418 - Minecraft OST";
+                              sound6 = "https://www.youtube.com/embed/xIQrC4CerB8?list=PLrnb8c3hFJatjyJ-wFMuFGANNoo7-LZsG";
+                              document.getElementById("b6").setAttribute("src",  "https://www.youtube.com/embed/xIQrC4CerB8?list=PLrnb8c3hFJatjyJ-wFMuFGANNoo7-LZsG");
+                              document.getElementById("text6").innerHTML = "Sweden - C418 - Minecraft OST";
                               break;
 
 }
