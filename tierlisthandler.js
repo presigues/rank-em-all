@@ -1011,16 +1011,19 @@ document.getElementById("match").innerHTML = "Round 7 - FINALS";
 
  function thirteenchosen(final1){
   winner = final1;
-  document.getElementById("match").innerHTML = "WINNER";
+  document.getElementById("match").innerHTML = "WINNER - CONGRATS";
   
   document.getElementById("semisix").style.display = "none";
-  
+  document.getElementById("return").style.display = "block";
+
  }
 
  function fourteenchosen(semi4){
  winner = semi4;
- document.getElementById("match").innerHTML = "WINNER";
+ document.getElementById("match").innerHTML = "WINNER - CONGRATS";
+
  document.getElementById("semifive").style.display = "none";
+ document.getElementById("return").style.display = "block";
   
 
  }
