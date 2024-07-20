@@ -921,46 +921,60 @@ document.getElementById("match").innerHTML = "Round 4 - Quals";
  function sevenchosen(semi1, semi2){
   semi4 = sound7;
   console.log(document.getElementById("text7").innerHTML);
+  document.getElementById("b9").setAttribute("src", semi1);
+  document.getElementById("b10").setAttribute("src", semi2);
   document.getElementById("seven").style.display = "none";
-document.getElementById("eight").style.display = "none";
-document.getElementById("semione").style.display = "block";
-document.getElementById("semitwo").style.display = "block";
-document.getElementById("b9").setAttribute("src", semi1);
-document.getElementById("b10").setAttribute("src", semi2);
+  document.getElementById("eight").style.display = "none";
+  document.getElementById("stage5").style.display = "block";
+  document.getElementById("text10").style.display = "block";
+  document.getElementById("text9").style.display = "block";
+  document.getElementById("semitwo").style.display = "block";
+  document.getElementById("semione").style.display = "block";
 document.getElementById("match").innerHTML = "Round 5 - Semis";
  }
 
  function eightchosen(semi1, semi2){
   semi4 = sound8;
   console.log(document.getElementById("text7").innerHTML);
+  document.getElementById("b9").setAttribute("src", semi1);
+  document.getElementById("b10").setAttribute("src", semi2);
   document.getElementById("seven").style.display = "none";
-document.getElementById("eight").style.display = "none";
-document.getElementById("semione").style.display = "block";
-document.getElementById("semitwo").style.display = "block";
-document.getElementById("b9").setAttribute("src", semi1);
-document.getElementById("b10").setAttribute("src", semi2);
+  document.getElementById("eight").style.display = "none";
+  document.getElementById("stage5").style.display = "block";
+  document.getElementById("text10").style.display = "block";
+  document.getElementById("text9").style.display = "block";
+  document.getElementById("semitwo").style.display = "block";
+  document.getElementById("semione").style.display = "block";
 document.getElementById("match").innerHTML = "Round 5 - Semis";
  }
 
 
- function ninechosen(semi1, semi2, semi3, semi4){
+ function ninechosen(semi1, semi3, semi4){
   final1 = semi1;
+  console.log(document.getElementById("text9").innerHTML);
   document.getElementById("b11").setAttribute("src", semi3);
   document.getElementById("b12").setAttribute("src", semi4);
   document.getElementById("semione").style.display = "none";
-document.getElementById("semitwo").style.display = "none";
-document.getElementById("semithree").style.display = "block";
-document.getElementById("semifour").style.display = "block";
+  document.getElementById("semitwo").style.display = "none";
+  document.getElementById("stage6").style.display = "block";
+  document.getElementById("text11").style.display = "block";
+  document.getElementById("text12").style.display = "block";
+  document.getElementById("semithree").style.display = "block";
+  document.getElementById("semifour").style.display = "block";
 document.getElementById("match").innerHTML = "Round 6 - Semis";
  }
 
- function tenchosen(semi1, semi2, semi3, semi4){
+ function tenchosen(semi2, semi3, semi4){
   final1 = semi2;
+  console.log(document.getElementById("text10").innerHTML);
   document.getElementById("b11").setAttribute("src", semi3);
   document.getElementById("b12").setAttribute("src", semi4);
   document.getElementById("semione").style.display = "none";
-document.getElementById("semitwo").style.display = "none";
-document.getElementById("semithree").style.display = "block";
-document.getElementById("semifour").style.display = "block";
+  document.getElementById("semitwo").style.display = "none";
+  document.getElementById("stage6").style.display = "block";
+  document.getElementById("text11").style.display = "block";
+  document.getElementById("text12").style.display = "block";
+  document.getElementById("semithree").style.display = "block";
+  document.getElementById("semifour").style.display = "block";
 document.getElementById("match").innerHTML = "Round 6 - Semis";
  }
