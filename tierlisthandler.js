@@ -1006,13 +1006,18 @@ document.getElementById("match").innerHTML = "Round 7 - FINALS";
   document.getElementById("text14").style.display = "block";
   document.getElementById("semifive").style.display = "block";
   document.getElementById("semisix").style.display = "block";
+  document.getElementById("match").style.color = "red";
 document.getElementById("match").innerHTML = "Round 7 - FINALS";
  }
 
  function thirteenchosen(final1){
   winner = final1;
   document.getElementById("match").innerHTML = "WINNER - CONGRATS";
+
+  document.getElementById("match").style.color = "yellow";
   
+  document.getElementById("choice13").style.display = "none";
+  document.getElementById("choice14").style.display = "none";
   document.getElementById("semisix").style.display = "none";
   document.getElementById("return").style.display = "block";
 
@@ -1021,6 +1026,11 @@ document.getElementById("match").innerHTML = "Round 7 - FINALS";
  function fourteenchosen(semi4){
  winner = semi4;
  document.getElementById("match").innerHTML = "WINNER - CONGRATS";
+
+ document.getElementById("match").style.color = "yellow";
+
+ document.getElementById("choice13").style.display = "none";
+ document.getElementById("choice14").style.display = "none";
 
  document.getElementById("semifive").style.display = "none";
  document.getElementById("return").style.display = "block";
