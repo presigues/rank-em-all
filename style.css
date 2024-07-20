@@ -701,7 +701,7 @@
     transition-duration: 0.4s;  
 }
 
-#choice12::backdrop{
+#choice12:hover{
     border: 2px solid rgb(1, 29, 59);
     background-color: rgb(1, 29, 59);
     height: 55px;

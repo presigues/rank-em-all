@@ -835,6 +835,11 @@ switch(bluebg6){ // SONG 4 -----------------------------------------------------
   document.getElementById("match").style.display = "block";
  }
 
+ semi1;
+ semi2;
+ semi3;
+ semi4;
+
  function onechosen(){
 semi1 = sound1;
 console.log(document.getElementById("text1").innerHTML);
@@ -849,7 +854,7 @@ document.getElementById("match").innerHTML = "Round 2 - Quals";
  }
 
  function twochosen(){
-  semi1 = sound2;
+semi1 = sound2;
   console.log(document.getElementById("text2").innerHTML);
   document.getElementById("three").style.display = "block";
 document.getElementById("four").style.display = "block";
