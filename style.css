@@ -201,6 +201,18 @@
     right: 50px;
 }
 
+#b13{
+    position: fixed;
+    top: 250px;
+    left: 50px;
+}
+
+#b14{
+    position: fixed;
+    top: 250px;
+    right: 50px;
+}
+
 #one{
     position: fixed;
     top: 225px;
@@ -295,7 +307,7 @@
     display: none;
 }
 
-#semithree{
+#semitwo{
     position: fixed;
     top: 225px;
     right: 25px;
@@ -306,7 +318,7 @@
     
 }
 
-#semifour{
+#semithree{
     position: fixed;
     top: 225px;
     left: 25px;
@@ -316,7 +328,7 @@
     display: none;
 }
 
-#semitwo{
+#semifour{
     position: fixed;
     top: 225px;
     right: 25px;
@@ -330,6 +342,16 @@
 #semifive{
     position: fixed;
     top: 225px;
+    left: 25px;
+    width: 850px;
+    height: 550px;
+    background-color: rgb(0, 47, 97);
+    display: none;
+}
+
+#semisix{
+    position: fixed;
+    top: 225px;
     right: 25px;
     width: 850px;
     height: 550px;
@@ -338,14 +360,23 @@
     
 }
 
-#semisix{
+#text1{
+    font-family: pixel;
+    font-size: 25px;
+    color: white;
     position: fixed;
-    top: 225px;
-    left: 25px;
-    width: 850px;
-    height: 550px;
-    background-color: rgb(0, 47, 97);
-    display: none;
+    top: 650px;
+    left: 50px;
+}
+
+#text2{
+    font-family: pixel;
+    font-size: 25px;
+    color: white;
+    position: fixed;
+    top: 650px;
+    left: 1025px;
+    margin-right: 50px;
 }
 
 #text3{
@@ -390,24 +421,7 @@
     display: none;
 }
 
-#text1{
-    font-family: pixel;
-    font-size: 25px;
-    color: white;
-    position: fixed;
-    top: 650px;
-    left: 50px;
-}
 
-#text2{
-    font-family: pixel;
-    font-size: 25px;
-    color: white;
-    position: fixed;
-    top: 650px;
-    left: 1025px;
-    margin-right: 50px;
-}
 
 #text7{
     font-family: pixel;
@@ -471,6 +485,7 @@
     margin-right: 50px;
     display: none;
 }
+
 #text13{
     font-family: pixel;
     font-size: 25px;
@@ -490,10 +505,6 @@
     left: 1025px;
     margin-right: 50px;
     display: none;
-}
-
-#radio{
-    width: 100px;
 }
 
 #choice1{
