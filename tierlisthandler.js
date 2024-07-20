@@ -979,11 +979,11 @@ document.getElementById("match").innerHTML = "Round 6 - Semis";
 document.getElementById("match").innerHTML = "Round 6 - Semis";
  }
 
- function elevenchosen(final1, final2, semi3){
-  final2 = semi3;
+ function elevenchosen(semi4, semi3){
+
   console.log(document.getElementById("text11").innerHTML);
-  document.getElementById("b11").setAttribute("src", final1);
-  document.getElementById("b12").setAttribute("src", final2);
+  document.getElementById("b13").setAttribute("src", final1);
+  document.getElementById("b14").setAttribute("src", semi3);
   document.getElementById("semithree").style.display = "none";
   document.getElementById("semifour").style.display = "none";
   document.getElementById("stage7final").style.display = "block";
@@ -994,11 +994,11 @@ document.getElementById("match").innerHTML = "Round 6 - Semis";
 document.getElementById("match").innerHTML = "Round 7 - FINALS";
  }
 
- function twelvechosen(final1, final2, semi4){
-  final2 = semi4;
+ function twelvechosen(semi3, semi4){
+  
   console.log(document.getElementById("text12").innerHTML);
   document.getElementById("b13").setAttribute("src", final1);
-  document.getElementById("b14").setAttribute("src", final2);
+  document.getElementById("b14").setAttribute("src", semi4);
   document.getElementById("semithree").style.display = "none";
   document.getElementById("semifour").style.display = "none";
   document.getElementById("stage7final").style.display = "block";
@@ -1009,12 +1009,18 @@ document.getElementById("match").innerHTML = "Round 7 - FINALS";
 document.getElementById("match").innerHTML = "Round 7 - FINALS";
  }
 
- function thirteenchosen(){
-  winner = final1
+ function thirteenchosen(final1){
+  winner = final1;
+  document.getElementById("match").innerHTML = "WINNER";
+  
+  document.getElementById("semisix").style.display = "none";
   
  }
 
- function fourteenchosen(){
- winner = final2
+ function fourteenchosen(semi4){
+ winner = semi4;
+ document.getElementById("match").innerHTML = "WINNER";
+ document.getElementById("semifive").style.display = "none";
+  
 
  }
