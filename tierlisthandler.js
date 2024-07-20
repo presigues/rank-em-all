@@ -978,3 +978,43 @@ document.getElementById("match").innerHTML = "Round 6 - Semis";
   document.getElementById("semifour").style.display = "block";
 document.getElementById("match").innerHTML = "Round 6 - Semis";
  }
+
+ function elevenchosen(final1, final2, semi3){
+  final2 = semi3;
+  console.log(document.getElementById("text11").innerHTML);
+  document.getElementById("b11").setAttribute("src", final1);
+  document.getElementById("b12").setAttribute("src", final2);
+  document.getElementById("semithree").style.display = "none";
+  document.getElementById("semifour").style.display = "none";
+  document.getElementById("stage7final").style.display = "block";
+  document.getElementById("text13").style.display = "block";
+  document.getElementById("text14").style.display = "block";
+  document.getElementById("semifive").style.display = "block";
+  document.getElementById("semisix").style.display = "block";
+document.getElementById("match").innerHTML = "Round 7 - FINALS";
+ }
+
+ function twelvechosen(final1, final2, semi4){
+  final2 = semi4;
+  console.log(document.getElementById("text12").innerHTML);
+  document.getElementById("b13").setAttribute("src", final1);
+  document.getElementById("b14").setAttribute("src", final2);
+  document.getElementById("semithree").style.display = "none";
+  document.getElementById("semifour").style.display = "none";
+  document.getElementById("stage7final").style.display = "block";
+  document.getElementById("text13").style.display = "block";
+  document.getElementById("text14").style.display = "block";
+  document.getElementById("semifive").style.display = "block";
+  document.getElementById("semisix").style.display = "block";
+document.getElementById("match").innerHTML = "Round 7 - FINALS";
+ }
+
+ function thirteenchosen(){
+  winner = final1
+  
+ }
+
+ function fourteenchosen(){
+ winner = final2
+
+ }
